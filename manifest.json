@@ -1,0 +1,11 @@
+{
+  "domain": "obis_meter",
+  "name": "OBIS Meter",
+  "documentation": "https://github.com/ArtemMaximus",
+  "requirements": ["pyserial>=3.5", "pyserial-asyncio>=0.6"],
+  "dependencies": [],
+  "codeowners": ["@ArtemMaximus"],
+  "version": "1.0.0",
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
